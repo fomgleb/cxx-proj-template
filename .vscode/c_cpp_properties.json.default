@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "name": "Linux",
+            "includePath": [
+                "${workspaceFolder}/src/**/",
+                "${workspaceFolder}/build/**",
+                "${workspaceFolder}/build/_deps/ftxui-src/include",
+                "${workspaceFolder}/build/_deps/min_sock-src/src/header",
+                "${workspaceFolder}/build/_deps/imgui-src",
+                "${workspaceFolder}/build/_deps/imgui-src/backends",
+                "${workspaceFolder}/build/_deps/sdl2-src/include"
+            ],
+            "compilerPath": "/usr/bin/g++",
+            "defines": [],
+            "cppStandard": "c++17",
+            "intelliSenseMode": "linux-gcc-x64"
+            // "configurationProvider": "llvm-vs-code-extensions.vscode-clangd"
+        }
+    ],
+    "version": 4
+}
